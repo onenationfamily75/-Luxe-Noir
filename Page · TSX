@@ -1,0 +1,395 @@
+export const runtime = 'edge'
+
+export default function Home() {
+  return (
+    <main style={{
+      minHeight: '100vh',
+      background: '#0a0a0a',
+      color: '#fff',
+      fontFamily: 'var(--font-geist-sans), Arial, sans-serif',
+      display: 'flex',
+      flexDirection: 'column',
+    }}>
+
+      {/* ANNOUNCEMENT BAR */}
+      <div style={{
+        background: '#1a1a1a',
+        borderBottom: '1px solid #2a2a2a',
+        textAlign: 'center',
+        padding: '8px 16px',
+        fontSize: '12px',
+        letterSpacing: '0.5px',
+        color: '#aaa',
+      }}>
+        🌍 Free Worldwide Shipping Over $49 &nbsp;·&nbsp;{' '}
+        <span style={{ color: '#c9a84c' }}>WhatsApp Confirmation</span>
+        &nbsp;·&nbsp; +254 786 781 665
+      </div>
+
+      {/* HEADER */}
+      <header style={{
+        position: 'sticky',
+        top: 0,
+        zIndex: 100,
+        background: 'rgba(10,10,10,0.95)',
+        backdropFilter: 'blur(12px)',
+        borderBottom: '1px solid #222',
+        padding: '16px 32px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+      }}>
+        <div>
+          <div style={{
+            fontFamily: 'Georgia, serif',
+            fontSize: '24px',
+            fontWeight: '400',
+            letterSpacing: '4px',
+            textTransform: 'uppercase',
+            color: '#fff',
+          }}>
+            LUXE <span style={{ color: '#c9556b' }}>NOIR</span>
+          </div>
+          <div style={{ fontSize: '9px', letterSpacing: '3px', color: '#666', textTransform: 'uppercase', marginTop: '2px' }}>
+            Premium Beauty & Fashion
+          </div>
+        </div>
+        <nav style={{ display: 'flex', gap: '28px', listStyle: 'none' }}>
+          {['Shop', 'Skincare', 'Makeup', 'Haircare', 'About'].map(item => (
+            <a
+              key={item}
+              href="#"
+              style={{ fontSize: '12px', letterSpacing: '1.5px', textTransform: 'uppercase', color: '#aaa', transition: 'color 0.2s' }}
+              onMouseOver={e => (e.currentTarget.style.color = '#c9556b')}
+              onMouseOut={e => (e.currentTarget.style.color = '#aaa')}
+            >
+              {item}
+            </a>
+          ))}
+        </nav>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <a
+            href={`https://wa.me/254786781665`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              background: '#25D366',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '8px',
+              padding: '8px 16px',
+              fontSize: '12px',
+              fontWeight: '600',
+              letterSpacing: '0.5px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              cursor: 'pointer',
+            }}
+          >
+            💬 WhatsApp
+          </a>
+        </div>
+      </header>
+
+      {/* HERO */}
+      <section style={{
+        minHeight: '90vh',
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden',
+        background: 'linear-gradient(135deg, #0a0a0a 0%, #1a0a10 50%, #0a0510 100%)',
+      }}>
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          backgroundImage: "url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1600&q=80')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.25,
+        }} />
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: 'linear-gradient(to bottom, rgba(10,10,10,0.3) 0%, rgba(10,10,10,0.85) 100%)',
+        }} />
+        <div style={{ position: 'relative', textAlign: 'center', padding: '0 24px', maxWidth: '800px' }}>
+          <div style={{
+            display: 'inline-block',
+            background: 'rgba(201,85,107,0.15)',
+            border: '1px solid rgba(201,85,107,0.4)',
+            color: '#f5d0da',
+            fontSize: '11px',
+            letterSpacing: '3px',
+            textTransform: 'uppercase',
+            padding: '6px 20px',
+            borderRadius: '50px',
+            marginBottom: '28px',
+          }}>
+            ✦ Global Beauty · Affordable Prices
+          </div>
+          <h1 style={{
+            fontFamily: 'Georgia, serif',
+            fontSize: 'clamp(3rem, 7vw, 6rem)',
+            fontWeight: '400',
+            lineHeight: '1.05',
+            marginBottom: '20px',
+            color: '#fff',
+          }}>
+            Beauty Without<br />
+            <em style={{ color: '#c9556b', fontStyle: 'italic' }}>Boundaries</em>
+          </h1>
+          <p style={{
+            color: 'rgba(255,255,255,0.6)',
+            fontSize: '1rem',
+            lineHeight: '1.8',
+            maxWidth: '500px',
+            margin: '0 auto 32px',
+            fontWeight: '300',
+          }}>
+            Premium women&apos;s beauty products sourced from top global suppliers.
+            Delivered worldwide at prices you&apos;ll love.
+          </p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <a
+              href="#shop"
+              style={{
+                background: '#c9556b',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '50px',
+                padding: '14px 36px',
+                fontSize: '13px',
+                fontWeight: '500',
+                letterSpacing: '1px',
+                textTransform: 'uppercase',
+                cursor: 'pointer',
+                transition: 'all 0.25s',
+              }}
+              onMouseOver={e => { (e.currentTarget as HTMLElement).style.background = '#a8405a'; (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)'; }}
+              onMouseOut={e => { (e.currentTarget as HTMLElement).style.background = '#c9556b'; (e.currentTarget as HTMLElement).style.transform = 'translateY(0)'; }}
+            >
+              Shop Now ✦
+            </a>
+            <a
+              href={`https://wa.me/254786781665?text=${encodeURIComponent('Hello Luxe Noir! I would like to place an order. Please assist me.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                background: 'transparent',
+                color: '#fff',
+                border: '1.5px solid rgba(255,255,255,0.35)',
+                borderRadius: '50px',
+                padding: '14px 36px',
+                fontSize: '13px',
+                fontWeight: '500',
+                letterSpacing: '1px',
+                textTransform: 'uppercase',
+                cursor: 'pointer',
+              }}
+            >
+              💬 Order via WhatsApp
+            </a>
+          </div>
+
+          {/* Stats */}
+          <div style={{ display: 'flex', gap: '40px', justifyContent: 'center', marginTop: '48px', flexWrap: 'wrap' }}>
+            {[['40K+', 'Products'], ['180+', 'Countries'], ['250K+', 'Customers'], ['4.9★', 'Rating']].map(([num, lbl]) => (
+              <div key={lbl} style={{ textAlign: 'center' }}>
+                <div style={{ fontFamily: 'Georgia, serif', fontSize: '2rem', color: '#fff', fontWeight: '400' }}>{num}</div>
+                <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.45)', letterSpacing: '1px', textTransform: 'uppercase', marginTop: '2px' }}>{lbl}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TRUST BAR */}
+      <div style={{ background: '#111', borderTop: '1px solid #222', borderBottom: '1px solid #222', padding: '16px 32px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
+          {[
+            ['📦', 'Free shipping $49+'],
+            ['🔄', '30-day returns'],
+            ['✅', '100% authentic'],
+            ['💳', 'Secure card & virtual card'],
+            ['💬', 'WhatsApp confirmation'],
+          ].map(([icon, text]) => (
+            <div key={text} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', color: '#888', fontWeight: '500' }}>
+              <span>{icon}</span> {text}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* CATEGORIES */}
+      <section id="shop" style={{ padding: '80px 32px', background: '#0d0d0d' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <p style={{ fontSize: '11px', letterSpacing: '2.5px', textTransform: 'uppercase', color: '#c9556b', fontWeight: '600', marginBottom: '8px' }}>Shop By Category</p>
+            <h2 style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: '400', color: '#fff' }}>Find Your Beauty Ritual</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '16px' }}>
+            {[
+              { name: 'Skincare', count: '12,400+', img: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&q=80', badge: '🔥 Top Seller' },
+              { name: 'Makeup', count: '9,800+', img: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&q=80', badge: '' },
+              { name: 'Haircare', count: '7,200+', img: 'https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=500&q=80', badge: '✨ New' },
+              { name: 'Body & Fragrance', count: '10,600+', img: 'https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?w=500&q=80', badge: '' },
+            ].map(cat => (
+              <div
+                key={cat.name}
+                style={{
+                  position: 'relative',
+                  borderRadius: '16px',
+                  overflow: 'hidden',
+                  aspectRatio: '3/4',
+                  cursor: 'pointer',
+                  border: '1px solid #222',
+                }}
+              >
+                <img
+                  src={cat.img}
+                  alt={cat.name}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+                <div style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: 'linear-gradient(to top, rgba(10,10,10,0.9) 0%, transparent 55%)',
+                  display: 'flex',
+                  alignItems: 'flex-end',
+                  padding: '20px',
+                }}>
+                  <div>
+                    <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.4rem', color: '#fff', fontWeight: '400' }}>{cat.name}</div>
+                    <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.55)', marginTop: '3px' }}>{cat.count} products</div>
+                  </div>
+                </div>
+                {cat.badge && (
+                  <div style={{
+                    position: 'absolute',
+                    top: '12px',
+                    right: '12px',
+                    background: '#c9556b',
+                    color: '#fff',
+                    fontSize: '10px',
+                    padding: '3px 10px',
+                    borderRadius: '20px',
+                    fontWeight: '600',
+                  }}>
+                    {cat.badge}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* WHATSAPP CTA */}
+      <section style={{
+        background: 'linear-gradient(135deg, #1a0a10 0%, #0d0d0d 100%)',
+        padding: '80px 32px',
+        textAlign: 'center',
+        borderTop: '1px solid #222',
+      }}>
+        <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+          <p style={{ fontSize: '11px', letterSpacing: '2.5px', textTransform: 'uppercase', color: '#c9556b', marginBottom: '16px' }}>Order Confirmation</p>
+          <h2 style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3vw, 2.6rem)', color: '#fff', fontWeight: '400', marginBottom: '16px' }}>
+            Instant WhatsApp Confirmation
+          </h2>
+          <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: '15px', lineHeight: '1.8', marginBottom: '32px', fontWeight: '300' }}>
+            Every order is confirmed directly via WhatsApp at <strong style={{ color: '#25D366' }}>+254 786 781 665</strong>.
+            Fast, personal, and secure — you&apos;ll never wonder about your order status again.
+          </p>
+          <a
+            href="https://wa.me/254786781665?text=Hello%20Luxe%20Noir!%20I%20would%20like%20to%20place%20an%20order."
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              background: '#25D366',
+              color: '#fff',
+              borderRadius: '12px',
+              padding: '16px 40px',
+              fontSize: '15px',
+              fontWeight: '600',
+              letterSpacing: '0.3px',
+              cursor: 'pointer',
+            }}
+          >
+            <span>💬</span> Chat with Us on WhatsApp
+          </a>
+          <p style={{ marginTop: '16px', fontSize: '12px', color: 'rgba(255,255,255,0.35)' }}>
+            Average response time: under 30 minutes
+          </p>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer style={{
+        background: '#080808',
+        borderTop: '1px solid #1a1a1a',
+        padding: '48px 32px 24px',
+        color: 'rgba(255,255,255,0.45)',
+      }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '32px', marginBottom: '40px' }}>
+            <div>
+              <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.4rem', color: '#fff', letterSpacing: '3px', marginBottom: '12px' }}>
+                LUXE <span style={{ color: '#c9556b' }}>NOIR</span>
+              </div>
+              <p style={{ fontSize: '13px', lineHeight: '1.8', fontWeight: '300', maxWidth: '220px' }}>
+                Premium women&apos;s beauty products sourced from the world&apos;s finest suppliers. Delivered worldwide.
+              </p>
+              <div style={{ marginTop: '16px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <span style={{ color: '#25D366', fontSize: '13px', fontWeight: '500' }}>💬</span>
+                <a href="https://wa.me/254786781665" style={{ color: '#25D366', fontSize: '13px', fontWeight: '500' }}>+254 786 781 665</a>
+              </div>
+              <p style={{ marginTop: '6px', fontSize: '12px' }}>📧 support@luxenoir.store</p>
+            </div>
+            {[
+              { title: 'Shop', links: ['Skincare', 'Makeup', 'Haircare', 'Body & Bath', 'Fragrance', 'Tools & Devices'] },
+              { title: 'Information', links: ['Shipping Policy', 'Returns & Refunds', 'Privacy Policy', 'Terms & Conditions', 'Dropshipping Info'] },
+              { title: 'Help', links: ['FAQ', 'Track My Order', 'Wholesale / Bulk', 'Affiliate Program', 'Contact Us'] },
+            ].map(col => (
+              <div key={col.title}>
+                <h4 style={{ fontSize: '11px', fontWeight: '600', letterSpacing: '1.5px', textTransform: 'uppercase', color: '#fff', marginBottom: '14px' }}>{col.title}</h4>
+                <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  {col.links.map(link => (
+                    <li key={link}>
+                      <a href="#" style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', transition: 'color 0.2s', fontWeight: '300' }}
+                        onMouseOver={e => (e.currentTarget.style.color = '#c9556b')}
+                        onMouseOut={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.45)')}
+                      >{link}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div style={{ borderTop: '1px solid #1a1a1a', paddingTop: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
+            <p style={{ fontSize: '11px' }}>© 2026 Luxe Noir. All rights reserved.</p>
+            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+              {['VISA', 'MC', 'AMEX', 'VIRTUAL CARD', 'PAYPAL', 'APPLE PAY'].map(p => (
+                <span key={p} style={{
+                  background: 'rgba(255,255,255,0.05)',
+                  border: '1px solid rgba(255,255,255,0.1)',
+                  borderRadius: '5px',
+                  padding: '3px 8px',
+                  fontSize: '9px',
+                  fontWeight: '600',
+                  color: 'rgba(255,255,255,0.5)',
+                  letterSpacing: '0.5px',
+                }}>{p}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  )
+}
