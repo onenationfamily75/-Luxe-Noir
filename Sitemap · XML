@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ===== CORE PAGES ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&q=80</image:loc>
+      <image:title>Luxe Noir — Premium Women's Beauty & Fashion</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/shop</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/cart</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/checkout</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/wishlist</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- ===== SKINCARE CATEGORY ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/moisturisers</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/serums-treatments</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/cleansers-toners</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/eye-care</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/spf-sun-care</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/face-masks</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/retinol-anti-ageing</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/vitamin-c</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/skincare/exfoliators</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ===== MAKEUP CATEGORY ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.92</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/foundation-concealer</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/lip-colour-gloss</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/eye-makeup</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/blush-bronzer-highlighter</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/brushes-tools</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/setting-spray-primer</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/makeup/brow-products</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+
+  <!-- ===== HAIRCARE CATEGORY ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/shampoo-conditioner</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/treatments-masks</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/styling-products</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/hair-tools-devices</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/scalp-care</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/hair-oils</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/heat-protection</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.73</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/haircare/dry-shampoo</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <!-- ===== BODY & FRAGRANCE CATEGORY ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/body-lotions-oils</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/bath-shower</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/perfumes-mists</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/deodorant</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/scrubs-exfoliators</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/self-tan</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/body-fragrance/body-butter</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.73</priority>
+  </url>
+
+  <!-- ===== TOOLS & DEVICES CATEGORY ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/led-therapy-devices</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/gua-sha-rollers</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/electric-cleansers</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.76</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/nail-tools-art</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/ice-rollers</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.74</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/beauty-fridges</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/tools-devices/sonic-cleansers</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.73</priority>
+  </url>
+
+  <!-- ===== COLLECTIONS / SPECIAL PAGES ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/bestsellers</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/new-arrivals</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/sale</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/gift-sets</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/bundles</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/under-10</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/korean-beauty</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/natural-organic</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/collections/cruelty-free</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+
+  <!-- ===== POLICY / INFO PAGES ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/policies/shipping</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/policies/returns</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/policies/privacy</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/policies/terms</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/policies/dropshipping</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
+  <!-- ===== COMPANY / HELP PAGES ===== -->
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/about</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/contact</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/faq</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.62</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/track-order</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/wholesale</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/affiliate</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/beauty-quiz</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.68</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/size-guide</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/blog</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/blog/best-skincare-routine-2026</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.62</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/blog/affordable-korean-beauty-products</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.62</priority>
+  </url>
+
+  <url>
+    <loc>https://luxe-noir-3im.pages.dev/blog/how-to-use-gua-sha</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>
