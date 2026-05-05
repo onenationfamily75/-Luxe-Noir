@@ -1,0 +1,19 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // Required for Cloudflare Pages with @cloudflare/next-on-pages
+  experimental: {
+    runtime: 'edge',
+  },
+  images: {
+    // Use unoptimized images on Cloudflare Pages (no image server)
+    unoptimized: true,
+    domains: [
+      'images.unsplash.com',
+      'res.cloudinary.com',
+    ],
+  },
+  // Disable server-side features not supported on Cloudflare edge
+  output: 'standalone',
+}
+
+module.exports = nextConfig
