@@ -65,6 +65,24 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+
+        // ── Brand colors ──
+        rose: {
+          DEFAULT: '#C9526B',
+          light: '#F5E0E5',
+          dark: '#8B2D44',
+        },
+        gold: {
+          DEFAULT: '#C9A84C',
+          light: '#F7EDD3',
+        },
+        cream: '#FDF8F4',
+        brand: {
+          dark: '#1A1015',
+          mid: '#4A3540',
+          muted: '#9A7E87',
+          border: '#EAD8DC',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -73,20 +91,12 @@ export default {
       },
       keyframes: {
         'accordion-down': {
-          from: {
-            height: '0',
-          },
-          to: {
-            height: 'var(--radix-accordion-content-height)',
-          },
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' },
         },
         'accordion-up': {
-          from: {
-            height: 'var(--radix-accordion-content-height)',
-          },
-          to: {
-            height: '0',
-          },
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' },
         },
       },
       animation: {
